@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-       imagename = "sheyidocker/mycustomimage"
+       imagename = "sheyidocker/mycustomimage:v1"
        registryCredential = 'docker-hub'
        dockerImage = ''
            }
