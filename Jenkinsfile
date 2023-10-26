@@ -3,7 +3,7 @@ pipeline {
 
   environment {
        imagename = "sheyidocker/mycustomimage"
-       registryCredential = 'Docker-hub'
+       registryCredential = 'docker-hub'
        dockerImage = ''
            }
 
